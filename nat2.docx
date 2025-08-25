@@ -16,6 +16,8 @@ slicing for specific --->edit--->prefrences--->column --->add column--->name it 
 membership -for grouping (in operator)
 tcp.dstport in {80 ,443, 8080}
 
-regural operation- for validations --- http.host matches"net$"
 
+regural operation- for validations --->
+http.host matches"net$"
+http.host matches "^test"
 
