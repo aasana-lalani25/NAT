@@ -1,0 +1,21 @@
+download image - capture hhtp image packet -->files--->export object----> http --->select ---->save the images 
+
+content- right click--->follow and get the content
+
+set name resolution - edit--->preferences --->name resolution(make your chnages )
+
+add your  ip address with your name 
+statictic--->resolved addresses--->all entries
+right click---> edit reolved name----> name it and apply
+
+operators in wireshark
+
+slice  - only know that the ip starts with 128 filter ---> ip.src[0:1]==128
+slicing for specific --->edit--->prefrences--->column --->add column--->name it --->data type custom---> apply----> select column --->add the filter and ok 
+
+membership -for grouping (in operator)
+tcp.dstport in {80 ,443, 8080}
+
+regural operation- for validations --- http.host matches"net$"
+
+
